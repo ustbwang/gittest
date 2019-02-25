@@ -5,4 +5,4 @@ data = pd.read_csv('extra_ES_candidate.txt', header=None, sep='\t', names=column
 data = data[['idea_id', 'pv', 'idea_url', 'url', 'title']]
 
 data.to_csv('qnm.txt', index=False, header=None, sep='\t')
-print("dev branch test 2!")
+print("dev branch test 3!")
