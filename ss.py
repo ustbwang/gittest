@@ -6,3 +6,4 @@ data = data[['idea_id', 'pv', 'idea_url', 'url', 'title']]
 
 data.to_csv('qnm.txt', index=False, header=None, sep='\t')
 print("dev branch test!")
+print("我是master主分支")
