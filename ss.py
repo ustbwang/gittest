@@ -7,6 +7,7 @@ data = pd.read_csv('extra_ES_candidate.txt', header=None, sep='\t', names=column
 data = data[["'idea_id', 'pv'"]]
 data = data[['idea_id']]
 #data.to_csv('qnm.txt', index=False, header=None, sep='\t')
+print("to merge dec!")
 print("dev branch test 3!")
 print("qnm")
 print("qnmmm")
